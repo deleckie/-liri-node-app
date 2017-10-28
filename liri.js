@@ -4,19 +4,15 @@ var request = require("request");
 var keys = require("./keys.js");
 var twitter = require("twitter");
 var spotify = require("spotify");
-var arg = process.argv[2];
+var movie = require("omdb");
+var liriArgument = process.argv[2];
 
-// Possible commands
-
-case "my-tweets":
-    myTweets();
-    break;
-case "spotify-this-song":
-    spotifyThisSong();
-    break;
-case "movie-this":
-    movieThis();
-    break;
-case "do-what-it-says":
-    doWhatItSays();
-    break;
+// linking to the twitter API through the NPM.
+// var params = {
+//     screen_name: 'nodejs'
+// };
+// client.get('statuses/user_timeline', params, function(error, tweets, response) {
+//     if (!error) {
+//         console.log(tweets);
+//     }
+// });
