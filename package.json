@@ -1,5 +1,5 @@
 {
-  "name": "-liri-node-app",
+  "name": "liri-node-app",
   "version": "1.0.0",
   "description": "",
   "main": "keys.js",
@@ -10,13 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/deleckie/-liri-node-app.git"
   },
-  "author": "",
+  "author": "d . e . l e c k i e ",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/deleckie/-liri-node-app/issues"
   },
   "homepage": "https://github.com/deleckie/-liri-node-app#readme",
   "dependencies": {
+    "command": "0.0.5",
+    "commander": "^2.11.0",
+    "inquirer": "^3.3.0",
     "node-spotify-api": "^1.0.7",
     "twitter": "^1.7.1"
   }
